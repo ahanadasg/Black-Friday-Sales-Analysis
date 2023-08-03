@@ -1,4 +1,25 @@
 # Black-Friday-Sales-Analysis
+
+## Introduction
+This project aims to analyze the Black Friday sales data to gain insights into customer behavior, popular products, and purchase trends during the Black Friday sale. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
+
+## Data Source
+The dataset used for this analysis is sourced from Kaggle. It contains the following columns:
+User_ID	
+Product_ID	
+Gender	
+Age	
+Occupation	
+City_Category	
+Stay_In_Current_City_Years	
+Marital_Status	
+Product_Category_1	
+Product_Category_2	
+Product_Category_3	
+Purchase
+![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/d9a11602-4d81-494d-9d12-cd974116612c)
+
+## Steps to replicate.
 1.	Explore Kaggle Datasets:
 Go to the Kaggle Datasets page (https://www.kaggle.com/datasets) to explore the available datasets. You can search for specific datasets using keywords or browse through various categories.
 

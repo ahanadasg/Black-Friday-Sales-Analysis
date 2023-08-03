@@ -48,67 +48,6 @@ When you run this cell, you will receive a prompt to “browse” your files and
 
 8.	Let's walk through a basic Black Friday sales data analysis using Python and some popular data analysis libraries like Pandas and Matplotlib. 
 9.	Explore the data: Display the first few rows of the dataset; Get a summary of the dataset; Check for missing values; Describe the numerical columns
-Output:
-Product_Category_2  Product_Category_3  Purchase  
-0                 NaN                 NaN      8370  
-1                 6.0                14.0     15200  
-2                 NaN                 NaN      1422  
-3                14.0                 NaN      1057  
-4                 NaN                 NaN      7969  
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 550068 entries, 0 to 550067
-Data columns (total 12 columns):
-     Column                      Non-Null Count   Dtype  
----  ------                      --------------   -----  
- 0   User_ID                     550068 non-null  int64  
- 1   Product_ID                  550068 non-null  object 
- 2   Gender                      550068 non-null  object 
- 3   Age                         550068 non-null  object 
- 4   Occupation                  550068 non-null  int64  
- 5   City_Category               550068 non-null  object 
- 6   Stay_In_Current_City_Years  550068 non-null  object 
- 7   Marital_Status              550068 non-null  int64  
- 8   Product_Category_1          550068 non-null  int64  
- 9   Product_Category_2          376430 non-null  float64
- 10  Product_Category_3          166821 non-null  float64
- 11  Purchase                    550068 non-null  int64  
-dtypes: float64(2), int64(5), object(5)
-memory usage: 50.4+ MB
-None
-User_ID                            0
-Product_ID                         0
-Gender                             0
-Age                                0
-Occupation                         0
-City_Category                      0
-Stay_In_Current_City_Years         0
-Marital_Status                     0
-Product_Category_1                 0
-Product_Category_2            173638
-Product_Category_3            383247
-Purchase                           0
-dtype: int64
-            User_ID     Occupation  Marital_Status  Product_Category_1  \
-count  5.500680e+05  550068.000000   550068.000000       550068.000000   
-mean   1.003029e+06       8.076707        0.409653            5.404270   
-std    1.727592e+03       6.522660        0.491770            3.936211   
-min    1.000001e+06       0.000000        0.000000            1.000000   
-25%    1.001516e+06       2.000000        0.000000            1.000000   
-50%    1.003077e+06       7.000000        0.000000            5.000000   
-75%    1.004478e+06      14.000000        1.000000            8.000000   
-max    1.006040e+06      20.000000        1.000000           20.000000   
-
-       Product_Category_2  Product_Category_3       Purchase  
-count       376430.000000       166821.000000  550068.000000  
-mean             9.842329           12.668243    9263.968713  
-std              5.086590            4.125338    5023.065394  
-min              2.000000            3.000000      12.000000  
-25%              5.000000            9.000000    5823.000000  
-50%              9.000000           14.000000    8047.000000  
-75%             15.000000           16.000000   12054.000000  
-max             18.000000           18.000000   23961.000000  
-
-
 
 10.	Exploratory Data Analysis (EDA)
 Countplot for ‘gender’
@@ -124,63 +63,8 @@ Bar plot of purchase by City Category
 ![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/a8f3389e-daa4-4b4e-ae69-da561ba89220)
 
 11.	Product Analysis: Top 10 products by sales
-    Output:
-Product_Category_1
-1     1910013754
-5      941835229
-8      854318799
-6      324150302
-2      268516186
-3      204084713
-16     145120612
-11     113791115
-10     100837301
-15      92969042
-Name: Purchase, dtype: int64
-
-    
-12. Analyzing Columns: Check the basic structure of the dataset, including column names, data types, and missing values.
-    Output:
-Data columns (total 12 columns):
- #   Column                      Non-Null Count   Dtype  
----  ------                      --------------   -----  
- 0   User_ID                     550068 non-null  int64  
- 1   Product_ID                  550068 non-null  object 
- 2   Gender                      550068 non-null  object 
- 3   Age                         550068 non-null  object 
- 4   Occupation                  550068 non-null  int64  
- 5   City_Category               550068 non-null  object 
- 6   Stay_In_Current_City_Years  550068 non-null  object 
- 7   Marital_Status              550068 non-null  int64  
- 8   Product_Category_1          550068 non-null  int64  
- 9   Product_Category_2          376430 non-null  float64
- 10  Product_Category_3          166821 non-null  float64
- 11  Purchase                    550068 non-null  int64  
-dtypes: float64(2), int64(5), object(5)
-
-Get summary statistics of the numerical features to understand the data distribution.
-
-Output:
-           User_ID     Occupation  Marital_Status  Product_Category_1  \
-count  5.500680e+05  550068.000000   550068.000000       550068.000000   
-mean   1.003029e+06       8.076707        0.409653            5.404270   
-std    1.727592e+03       6.522660        0.491770            3.936211   
-min    1.000001e+06       0.000000        0.000000            1.000000   
-25%    1.001516e+06       2.000000        0.000000            1.000000   
-50%    1.003077e+06       7.000000        0.000000            5.000000   
-75%    1.004478e+06      14.000000        1.000000            8.000000   
-max    1.006040e+06      20.000000        1.000000           20.000000   
-
-       Product_Category_2  Product_Category_3       Purchase  
-count       376430.000000       166821.000000  550068.000000  
-mean             9.842329           12.668243    9263.968713  
-std              5.086590            4.125338    5023.065394  
-min              2.000000            3.000000      12.000000  
-25%              5.000000            9.000000    5823.000000  
-50%              9.000000           14.000000    8047.000000  
-75%             15.000000           16.000000   12054.000000  
-max             18.000000           18.000000   23961.000000
-
+  
+12. Analyzing Columns: Check the basic structure of the dataset, including column names, data types, and missing values. Get summary statistics of the numerical features to understand the data distribution.
 
     
 13.	Multi Column Analysis: Explore relationships between multiple columns using scatter plots, box plots, or other suitable visualizations.

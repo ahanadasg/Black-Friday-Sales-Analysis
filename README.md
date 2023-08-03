@@ -58,7 +58,7 @@ Product_Category_2  Product_Category_3  Purchase
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 550068 entries, 0 to 550067
 Data columns (total 12 columns):
- #   Column                      Non-Null Count   Dtype  
+     Column                      Non-Null Count   Dtype  
 ---  ------                      --------------   -----  
  0   User_ID                     550068 non-null  int64  
  1   Product_ID                  550068 non-null  object 

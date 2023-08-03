@@ -71,6 +71,9 @@ Bar plot of purchase by City Category
 
     ![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/5f42ba4f-13ed-41e9-9244-bb1aa96552ff)
 
+## Conclusion
+The Black Friday Sale Analysis project provides valuable insights into customer behavior, product preferences, and purchase trends during the Black Friday sale. The findings can be used to optimize marketing strategies, product offerings, and customer targeting for future sales events.
+
 
  
 

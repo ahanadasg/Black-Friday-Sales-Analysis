@@ -51,10 +51,12 @@ When you run this cell, you will receive a prompt to “browse” your files and
 
 10.	Exploratory Data Analysis (EDA)
 Countplot for ‘gender’
-![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/0637a17f-d567-4887-ad34-7e426d47a514)
+![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/c3c20d31-fe80-478f-b930-0300492fce03)
+
 
 Bar plot of purchase by city category
-![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/dfd32aa7-30f6-4ebc-8f04-4ebd62d827bf)
+![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/26bb2f45-4f40-4a96-8ea7-2f074ec3cff0)
+
 
 Box plot of purchase by gender
 ![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/8bd621aa-c849-4925-a91a-31b4c517fbca)

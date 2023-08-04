@@ -19,7 +19,7 @@ Product_Category_3
 Purchase
 
 
-## Steps to replicate.
+## Steps to replicate
 1.	Explore Kaggle Datasets:
 Go to the Kaggle Datasets page (https://www.kaggle.com/datasets) to explore the available datasets. You can search for specific datasets using keywords or browse through various categories.
 

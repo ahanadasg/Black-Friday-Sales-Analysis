@@ -3,7 +3,7 @@
 ## Introduction
 This project aims to analyze the Black Friday sales data to gain insights into customer behavior, popular products, and purchase trends during the Black Friday sale. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
 
-## Visualization using Streamlit
+## Visualization Dashboard using Streamlit
 http://localhost:8501/
 
 ## Data Source

@@ -76,6 +76,17 @@ Bar plot of purchase by City Category
 
     ![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/5f42ba4f-13ed-41e9-9244-bb1aa96552ff)
 
+14. Steps to create visualization dashboard using Streamlit
+i.	Install Streamlit in your machine.
+ii.	Create a .py file which contains the necessary code in python to visualize the dataset in Streamlit.
+iii.	Open cmd. Type cd<space>“Name of directory in which your .py file is located”
+Example: cd Downloads
+iv.	Next, let us assume the name of the python file is excel_dashboard.py.
+v.	In cmd type “streamlit run excel_dashboard.py”
+vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
+vii.	Link to dashboard: http://localhost:8501/
+
+
 ## Conclusion
 The Black Friday Sale Analysis project provides valuable insights into customer behavior, product preferences, and purchase trends during the Black Friday sale. The findings can be used to optimize marketing strategies, product offerings, and customer targeting for future sales events.
 

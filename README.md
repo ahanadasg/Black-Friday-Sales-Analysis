@@ -4,7 +4,7 @@
 This project aims to analyze the Black Friday sales data to gain insights into customer behavior, popular products, and purchase trends during the Black Friday sale. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
 
 ## Visualization Dashboard using Streamlit
-http://localhost:8501/
+http://192.168.100.5:8501
 
 ## Data Source
 The dataset used for this analysis is sourced from Kaggle. It contains the following columns:
@@ -84,7 +84,7 @@ Example: cd Downloads
 iv.	Next, let us assume the name of the python file is excel_dashboard.py.
 v.	In cmd type “streamlit run excel_dashboard.py”
 vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
-vii.	Link to dashboard: http://localhost:8501/
+vii.	Link to dashboard: http://192.168.100.5:8501
 
 
 ## Conclusion

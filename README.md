@@ -3,9 +3,6 @@
 ## Introduction
 This project aims to analyze the Black Friday sales data to gain insights into customer behavior, popular products, and purchase trends during the Black Friday sale. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
 
-## Visualization Dashboard using Streamlit
-http://192.168.100.5:8501
-
 ## Data Source
 The dataset used for this analysis is sourced from Kaggle. It contains the following columns:
 User_ID	
@@ -77,14 +74,20 @@ Bar plot of purchase by City Category
     ![image](https://github.com/ahanadasg/Black-Friday-Sales-Analysis/assets/113302918/5f42ba4f-13ed-41e9-9244-bb1aa96552ff)
 
 14. Steps to create visualization dashboard using Streamlit
-i.	Install Streamlit in your machine.
-ii.	Create a .py file which contains the necessary code in python to visualize the dataset in Streamlit.
-iii.	Open cmd. Type cd<space>“Name of directory in which your .py file is located”
-Example: cd Downloads
-iv.	Next, let us assume the name of the python file is excel_dashboard.py.
-v.	In cmd type “streamlit run excel_dashboard.py”
-vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
-vii.	Link to dashboard: http://192.168.100.5:8501
+  i.	Install Streamlit in your machine.
+
+  ii.	Create a .py file which contains the necessary code in python to visualize the dataset in Streamlit.
+  
+  iii.	Open cmd. Type cd<space>“Name of directory in which your .py file is located”
+  Example: cd Downloads
+  
+  iv.	Next, let us assume the name of the python file is excel_dashboard.py.
+  
+  v.	In cmd type “streamlit run excel_dashboard.py”
+  
+  vi.	Make sure you have the .py file and the csv/excel dataset in the same folder.
+  
+  vii.	Link to dashboard: http://192.168.100.5:8501
 
 
 ## Conclusion

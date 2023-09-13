@@ -1,7 +1,7 @@
-# Black-Friday-Sales-Analysis
+# Sales-Analysis
 
 ## Introduction
-This project aims to analyze the Black Friday sales data to gain insights into customer behavior, popular products, and purchase trends during the Black Friday sale. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
+This project aims to analyze the sales data to gain insights into customer behavior, popular products, and purchase trends during a Festive season. The dataset used for this analysis contains information about customer demographics, product categories, and purchase amounts.
 
 ## Link to Sales Dashboard
 https://sales-analysis-dashboard.streamlit.app/
